@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: pink; */
+}
+*{
+    overflow: hidden;
+    /* border: 1px solid rgb(131, 23, 89); */
+}
+.container{
+    width: 30vw;
+    max-width: 200px;
+    min-width: 200px;
+    background-color: black;
+    margin: 1em auto;
+    border-radius: 1.2em;
+    box-shadow: 1px 1px 3px 4px rgb(173, 166, 204);
+}
+.tecno{
+    color: rgb(168, 163, 163);
+    position: relative;
+    bottom: -1em;
+    text-align: center;
+    padding: .6em;
+    font-weight:600;
+}
+.top{
+    border: 1px solid rgb(36, 35, 35);
+}
+.top-line{
+    width: 2.5em;
+    height: .2em; 
+    background-color: rgb(58, 58, 58);
+    position: relative;
+    top: 1em;
+    border-radius: 1.5em;
+    margin: auto;
+}
+.inner-top{
+    width: 20vw;
+    max-width: 140px;
+    min-width: 120px;
+    height: 24.5vh;
+    background-color:rgb(58, 58, 58);
+    margin: auto;
+    position: relative;
+    top: 2em;
+}
+.middle{
+    height: 10vh;
+    /* width: 30vw; */
+    max-width: 200px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-controls, .right-controls{
+    background-color:black;
+    /* height: 10vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left, .right{
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    width: 3em;
+    height: 1.5em;
+    background-color: black;
+}
+.middle-controls{
+    height: 9vh;
+    background-color:rgb(39, 38, 38);
+    width: 4em;
+    border-radius: .5em;
+}
+.middle-inner{
+    height: 6vh;
+    background-color:rgb(24, 23, 23);
+    width: 3em;
+    border-radius: .5em;
+    border: 2px solid black;
+    margin: .4em auto;
+}
+.bottom{
+    width: 30vw;
+    max-width: 200px;
+    min-width: 200px;
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.numbers1 div, .numbers2 div, .numbers3 div{
+    width: 3.9em;
+    background-color: black;
+    height: 2.5em;
+    margin: 0 auto;
+    border: 1px solid rgb(24, 23, 23);
+    color: rgb(235, 229, 229);
+    text-align: center;
+}
+span{
+    font-size: .5em;
+    position: relative;
+    top: 1.7em;
+    left: -.8em;
+}
+.num{
+    font-size: 1em;
+    position: relative;
+    top: .9em;
+    left: -.3em;
+}
+.one{
+    left: -.5em;
+}
+.zero, .hash{
+    left: -.4em;
+}
+.seven{
+    left: -.1em;
+}
+.asterisk{
+    font-size: 1.7em;
+    left: -.2em;
+    top: .5em;
+}
